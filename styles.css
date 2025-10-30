@@ -1,0 +1,58 @@
+/* -----------------------------------------------------
+   GLOBAL COLORS
+----------------------------------------------------- */
+.stApp {
+    background-color: #015A84;
+    color: #F1EDEA;
+}
+
+/* -----------------------------------------------------
+   INPUTS
+----------------------------------------------------- */
+.stTextInput > div > div > input,
+.stNumberInput input,
+.stSelectbox div[data-baseweb="select"] > div {
+    color: #000000 !important;
+    background-color: #F1EDEA !important;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* -----------------------------------------------------
+   LABELS & HEADINGS
+----------------------------------------------------- */
+label, .stMarkdown, .stRadio label {
+    color: #F1EDEA !important;
+    font-weight: 500;
+}
+h1, h2, h3, h4 {
+    color: #F1EDEA !important;
+}
+
+/* -----------------------------------------------------
+   BUTTONS
+----------------------------------------------------- */
+button[kind="primary"], .stButton button {
+    background-color: #F1EDEA !important;
+    color: #015A84 !important;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+button[kind="primary"]:hover, .stButton button:hover {
+    background-color: #FFD700 !important;
+    color: #015A84 !important;
+}
+
+/* -----------------------------------------------------
+   ALERTS / TABLES
+----------------------------------------------------- */
+.stAlert {
+    background-color: #BADFCD !important;
+    color: #015A84 !important;
+    border-radius: 8px;
+}
+.dataframe, .stDataFrame {
+    color: #000000 !important;
+    background-color: #F1EDEA !important;
+}
